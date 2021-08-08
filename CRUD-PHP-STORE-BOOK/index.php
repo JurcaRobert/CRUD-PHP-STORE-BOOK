@@ -28,14 +28,7 @@ require_once ("../crud/php/operation.php");
 
         <div class="d-flex justify-content-center">
             <form action="" method="post" class="w-50">
-<!--
-                <div class="pt-2">
-                    <?php inputElement("<i class='fas fa-id-badge '></i>","ID", "book_id",setID()); ?>
-                </div>
-                <div class="pt-2">
-                    <?php inputElement("<i class='fas fa-book'></i>","Book Name", "book_name",""); ?>
-                </div>
--->
+
                 <div class="row pt-2">
                     <div class="col">
                         <?php inputElement("<i class='fas fa-id-badge '></i>","ID", "book_id",setID()); ?>
